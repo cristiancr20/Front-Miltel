@@ -407,3 +407,50 @@ padding: 10px;
   font-weight: bold;
   color: #fff;
 }
+
+.contactos .video{
+  width: 80%;
+  margin: 20px auto;
+}
+
+/* .contactos .video video{
+  width: 100%;
+  height: 500px;
+} */
+
+
+/* FOOTER */
+
+.footer{
+  background: var(--naranja-oscuro);
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.footer .opcion p{
+  margin: 10px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.footer .opcion {
+  list-style: none;
+}
+
+.footer .opcion li{
+  margin: 10px 0;
+  text-align: center;
+  transition: all .3s ease-in-out;
+}
+
+.footer .opcion li a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer .opcion li:hover{
+  transform: scale(1.2);
+  font-weight: bold;
+}
+
